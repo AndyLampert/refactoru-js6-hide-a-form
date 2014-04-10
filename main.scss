@@ -1,0 +1,54 @@
+* {
+
+}
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 auto;
+}
+
+.name-row,
+.age-row,
+.fav-row {
+	display: inline-block;
+}
+
+.main-container {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.user-profile-fields,
+.user-profile-info,
+.user-profile-edit {
+	list-style-type: none;
+}
+
+.user-profile-fields {
+	float: left;
+	margin-left: 20%;
+}
+
+.user-profile-info {
+	float: right;
+	margin-right: 20%;
+}
+
+.user-profile-edit {
+	clear: both;
+	text-align: center;
+}
+
+button {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+.update-box {
+	display: none;
+}
