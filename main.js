@@ -38,12 +38,3 @@ $(document).on('ready', function() {
 
 	});
 });
-
-// if newInputName does not = an empty string
-// then do the update
-
-
-// **Problems**
-// how to get the updated #update-btn to hide?
-
-// When the form is hidden, the button should say 'Show Form'. When the form is shown, the button should say 'Hide Form' and perform the appropriate action. Add a submit handler to the form element. On submit, update the text of user's profile below. You will have to cancel the default browser behavior, otherwise the submit will refresh the page.
