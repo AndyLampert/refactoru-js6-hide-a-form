@@ -31,10 +31,8 @@ $(document).on('ready', function() {
 		if(newInputAge !== '') {
 			$('.user-age').text(newInputAge);
 		}
-
 		if(newInputFav !== '') {
 			$('.user-fav').text(newInputFav);
 		}
-
 	});
 });
